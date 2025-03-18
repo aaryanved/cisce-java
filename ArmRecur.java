@@ -1,3 +1,4 @@
+package XII;
 
 import java.util.*;
 public class ArmRecur
@@ -13,7 +14,7 @@ public class ArmRecur
         System.out.println("Enter Number to Check for Armstrong: ");
         num=sc.nextInt();
     }
-    int count(int n)//Number of Digits
+    /*int count(int n)
     {
         int c=0;
         while(n>0)
@@ -22,6 +23,17 @@ public class ArmRecur
             n/=10;
         }
         return c;
+    }*/
+    int count(int n)//Recursive method to count the number of Digits
+    {
+        if(n==0)
+        {
+            return 0;
+        }
+        else
+        {
+            return 1 + count(n/10);
+        }
     }
     int powerSum(int n)
     {
