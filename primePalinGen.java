@@ -17,7 +17,6 @@ public class primePalinGen
             if(i%j==0)
             {
                 flag=0;
-                break;
             }
         }
         return flag;

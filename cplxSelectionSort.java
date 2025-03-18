@@ -35,7 +35,7 @@ public class cplxSelectionSort
             }
         }
         System.out.println("Name: " + "\t" + "Mobile Number: ");
-        for(int i=0;i<n;i++)
+        for(int i=0;i<=n;i++)
         {
             System.out.println(name[i] + "\t" + no[i]);
         }

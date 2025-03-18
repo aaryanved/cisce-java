@@ -1,14 +1,13 @@
 import java.util.*;
-public class ArrayMax
+public class arrayMax
 {
     int m;
     int arr[][];
-    ArrayMax(int mm)
+    arrayMax(int mm)
     {
         m=mm;
         arr= new int[m][m];
     }
-
     void readarray()
     {
         Scanner sc=new Scanner(System.in);
@@ -57,7 +56,7 @@ public class ArrayMax
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Array Range: ");
         int c=sc.nextInt();
-        ArrayMax ob=new ArrayMax(c);
+        arrayMax ob=new arrayMax(c);
         ob.readarray();
         ob.large();
         ob.display();
