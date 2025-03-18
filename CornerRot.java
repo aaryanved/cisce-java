@@ -1,4 +1,3 @@
-package XII.BoardPracticalPractice;
 
 import java.util.*;
 public class CornerRot

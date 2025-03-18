@@ -1,5 +1,3 @@
-package XII;
-
 import java.util.*;
 public class b2dPrac
 {
