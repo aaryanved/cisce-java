@@ -1,6 +1,7 @@
 # Java Programs for CISCE Board (2023-2025)
 
-This repository contains Java programs written by **Aaryan Ved Bhalla** from **2023 to 2025** as part of the **CISCE Board syllabus**. These programs cover various concepts of Java programming, including object-oriented principles, data structures, algorithms, and more.
+This repository contains Java programs written by **Aaryan Ved Bhalla** from **2023 to 2025** as part of the **CISCE Board syllabus**. These programs cover various concepts of Java programming, including object-oriented principles, data structures, algorithms, and more. <br>
+Additionaly Aaryan's ISC Board Project and Oswaal's Computer Science Notes have also been provided as PDFs.
 
 ## 🏫 Topics Covered
 - **Basic Java**
