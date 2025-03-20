@@ -25,29 +25,29 @@ public class RowSort
             }
             System.out.println("");
         }
-        int n[]=new int[c];
+        for(int i=0;i<r;i++)
+        {
+            for(int j=0;j<c-1;j++)
+            {
+                for(int k=0;k<c-1;k++)
+                {
+                    if(a[i][k]>a[i][k+1])
+                    {
+                        int t=a[i][k];
+                        a[i][k]=a[i][k+1];
+                        a[i][k+1]=t;
+                    }
+                }
+            }
+        }
+        System.out.println("New Matrix: ");
         for(int i=0;i<r;i++)
         {
             for(int j=0;j<c;j++)
             {
-                n[j]=a[i][j];
+                System.out.print(a[i][j] + " ");
             }
-        }
-        for(int i=0;i<c-1;i++)
-        {
-            for(int j=0;j<c-1;j++)
-            {
-                if(n[i]>n[j+1])
-                {
-                    int t=n[i];
-                    n[i]=n[j+1];
-                    n[j+1]=t;
-                }
-            }
-        }
-        for(int i=0;i<c;i++)
-        {
-            System.out.print(n[i]+" ");
+            System.out.println("");
         }
     }
 }
