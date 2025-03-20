@@ -40,6 +40,7 @@ public class RowSort
                 }
             }
         }
+        System.out.println("");
         System.out.println("New Matrix: ");
         for(int i=0;i<r;i++)
         {
