@@ -9,7 +9,8 @@ public class MyString
     boolean checkWord(String w)
     {
         int l=w.length();
-        if(Character.isUpperCase(w.charAt(0)) || Character.isLowerCase(w.charAt(l-1)))
+        if(Character.isUpperCase(w.charAt(0)) || Character.isUpperCase(w.charAt(l-1)))
+        //if((w.charAt(0)>=65 && w.charAt(0)<=90) || (w.charAt(l-1)>=65 && w.charAt(l-1)<=90))      <--- Another way to check
         {
             return true;
         }
