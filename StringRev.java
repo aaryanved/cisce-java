@@ -9,12 +9,10 @@ public class StringRev
     }
     String myRev(String w)
     {
-        String rev = "";
-        for(int i=w.length()-1; i>=0; i--)
-        {
-            rev += w.charAt(i);
+        if (w.isEmpty()) {
+            return w;
         }
-        return rev;
+        return myRev(w.substring(1)) + w.charAt(0);
     }
     void reverseStr(int n)
     {
